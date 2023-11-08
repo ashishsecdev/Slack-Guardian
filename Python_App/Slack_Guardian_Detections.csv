@@ -1,0 +1,4 @@
+pattern_name,pattern
+date,\b\d{2}/\d{2}/\d{4}\b
+credit_card,\b\d{16}\b
+Mail_Gun,\bkey-[0-9a-zA-Z]{32}\b
