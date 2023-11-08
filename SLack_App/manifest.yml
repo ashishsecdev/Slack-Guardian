@@ -1,0 +1,55 @@
+display_information:
+  name: Slack Guardian
+  description: A proactive security suite that utilizes Python, Regex and Slack API to safeguard sensitive data posted on Slack Channels.
+  background_color: "#000000"
+  long_description: "Your trusted partner for housekeeping of Slack channels!\r
+
+    \r
+
+    In today's professional landscape, both small businesses and large enterprises heavily utilize Slack as their primary internal communication tool. Consequently, safeguarding sensitive information within this collaborative platform has become absolutely crucial.\r
+
+    \r
+
+    Elevate your team's security posture with Slack Guardian and say goodbye to data breaches and hello to secure collaboration!\r
+
+    \r
+
+    Enter the world of Slack Guardian, a Slack Bot designed to safeguard your team's confidential conversations on Slack by using Regex pattern provided in .CSV file that also generates the real-time report of the violations."
+features:
+  bot_user:
+    display_name: Slack-Guardian-Ji
+    always_online: false
+oauth_config:
+  scopes:
+    user:
+      - chat:write
+    bot:
+      - channels:history
+      - channels:join
+      - channels:manage
+      - channels:read
+      - channels:write.invites
+      - channels:write.topic
+      - chat:write
+      - chat:write.public
+      - groups:history
+      - groups:read
+      - groups:write
+      - im:history
+      - im:read
+      - im:write
+      - incoming-webhook
+      - mpim:history
+      - mpim:read
+      - mpim:write
+      - chat:write.customize
+settings:
+  event_subscriptions:
+    request_url: <Your_EndPoint_>+/slack/events> 
+    bot_events:
+      - message.channels
+      - message.groups
+      - message.im
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
