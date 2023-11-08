@@ -30,7 +30,8 @@ Enter the world of Slack Guardian, a Slack Bot designed to safeguard your team's
   
 
 # Installation
-To be updated! :-P
+- Use manifest.yml file to create the Slack App.
+- Host Python Flask App locally.
 
 # Achitecture
 ![Slack_Guardian_architecture](https://github.com/ashishsecdev/Slack-Guardian/assets/49029528/c39526f6-c7e1-4d49-bc8f-0c274a0482a2)
