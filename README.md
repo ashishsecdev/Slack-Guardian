@@ -42,6 +42,9 @@ Enter the world of Slack Guardian, a Slack Bot designed to safeguard your team's
 4. `User with violation is tagged into Slack message thread` and notified on the violation.
 5. Automatic `deletion of violation` is performed.
 
+# Complimentary Slack Security Reference Blog
+https://medium.com/@ashishsecdev/slack-security-break-it-or-make-it-f8b32abaf9dd
+
 # Contribution
 Please create a new branch and raise it as a PR for consideration.
 
